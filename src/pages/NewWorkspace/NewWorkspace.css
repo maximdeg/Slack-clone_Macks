@@ -48,9 +48,24 @@
 .new-workspace_main .new-workspace-container .new-workspace-form .container {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
     height: 60px;
     /* border: 2px solid red; */
+}
+
+.new-workspace_main .new-workspace-container .new-workspace-form .input-channel_container {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    /* border: 2px solid red; */
+}
+
+.new-workspace_main .new-workspace-container .new-workspace-form .input-channel_container .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .new-workspace_main .new-workspace-container .new-workspace-form .container .label {
@@ -60,4 +75,14 @@
     width: 300px;
     font-size: 20px;
     color: var(--text-primary-color);
+}
+
+.new-workspace_main .new-workspace-container .new-workspace-form .container .input-new {
+    width: 250px;
+    height: 40px;
+}
+
+.input-channel_container span {
+    color: var(--text-primary-color);
+    font-size: 10px;
 }

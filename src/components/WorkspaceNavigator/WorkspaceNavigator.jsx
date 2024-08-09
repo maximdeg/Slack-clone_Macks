@@ -20,7 +20,8 @@ function WorkspaceNavigator() {
                 <div className="workspace-squares">
                     <span className="initials-span">
                         {workspace.workspace_name[0].toUpperCase()}
-                        {workspace.workspace_name.split(' ')[1][0].toUpperCase()}
+                        {workspace.workspace_name.split(' ')[1] &&
+                            workspace.workspace_name.split(' ')[1][0].toUpperCase()}
                     </span>
                 </div>
             </Link>

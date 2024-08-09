@@ -68,27 +68,35 @@ function NewWorkspace() {
                                 id="workspace_name"
                                 onChange={handleWorkspaceChange}
                                 value={workspace.workspace_name}
+                                className="input input-new"
+                                required
                             />
                         </div>
                         <div className="input-channel_container container">
-                            <label className="label" htmlFor="channel_name">
-                                Nombre del canal #
-                            </label>
-                            <input
-                                type={workspace.channels[1].channel_name}
-                                name="channel_name"
-                                id="channel_name"
-                                onChange={handleChannelChange}
-                                value={workspace.channels[1].channel_name}
-                            />
+                            <div className="container">
+                                <label className="label" htmlFor="channel_name">
+                                    Nombre del canal #
+                                </label>
+                                <input
+                                    type={workspace.channels[1].channel_name}
+                                    name="channel_name"
+                                    id="channel_name"
+                                    onChange={handleChannelChange}
+                                    value={workspace.channels[1].channel_name}
+                                    className="input input-new"
+                                />
+                            </div>
+                            <div>
+                                <span>*Por defecto se va a crear un canal #General aun si no completa este campo</span>
+                            </div>
                         </div>
                         <div className="buttons-container_container container">
-                            <button type="submit" className="button btn-create-workspace">
-                                Crear
-                            </button>
                             <Link to={'/'}>
                                 <button className="button btn-cancel-workspace">Cancelar</button>
                             </Link>
+                            <button type="submit" className="button btn-create-workspace">
+                                Crear
+                            </button>
                         </div>
                     </form>
                 </div>

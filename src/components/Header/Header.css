@@ -85,11 +85,8 @@
     color: var(--icon-color);
 }
 
-.header .right-half-container .navigation-container .search-container .search-input {
-    width: 620px;
-    height: 28px;
+.input {
     color: white;
-    font-size: 14px;
     border-radius: 6px;
     padding-left: 7px;
     border: none;
@@ -97,11 +94,17 @@
     background-color: var(--bg-tertiary-color);
 }
 
-.header .right-half-container .navigation-container .search-container .search-input::placeholder {
+.header .right-half-container .navigation-container .search-container .search-input {
+    width: 620px;
+    height: 28px;
+    font-size: 14px;
+}
+
+.input::placeholder {
     color: var(--icon-color);
 }
 
-.header .right-half-container .navigation-container .search-container .search-input:focus {
+.input:focus {
     outline: none;
 }
 

@@ -34,7 +34,7 @@ function Header({ workspace_name }) {
             <div className="right-half-container">
                 <div className="container navigation-container">
                     <div className="search-container">
-                        <input className="search-input" type="text" placeholder={`Buscar ${workspace_name}`} />
+                        <input className="input search-input" type="text" placeholder={`Buscar ${workspace_name}`} />
                         <LuSearch className="search-icon" />
                     </div>
                 </div>
