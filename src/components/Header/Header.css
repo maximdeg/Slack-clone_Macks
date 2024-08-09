@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    width: 100%;
+    max-height: 40px;
+    background: linear-gradient(90deg, rgba(29, 32, 34, 1) 0%, rgba(20, 22, 32, 1) 100%);
+}
+
+.header .left-half-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 27%;
+}
+
+.header .left-half-container .empty-container {
+    display: flex;
+    align-items: center;
+    margin-left: 12.5px;
+    width: 100px;
+}
+
+.header .left-half-container .navigator {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header .empty-container .logo-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header .empty-container .logo-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .empty-container span {
+    margin-left: 5px;
+    color: var(--text-primary-color);
+    font-size: 18px;
+}
+
+.header .btn-navigation {
+    color: var(--icon-color);
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header .navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header .left-half-container .navigator .btn-navigation .icon-watch {
+    font-size: 20px;
+}
+
+.header .right-half-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 25px; */
+    width: 71%;
+}
+
+.header .right-half-container .navigation-container .search-container {
+    position: relative;
+}
+
+.header .right-half-container .navigation-container .search-container .search-icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: var(--icon-color);
+}
+
+.header .right-half-container .navigation-container .search-container .search-input {
+    width: 620px;
+    height: 28px;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    padding-left: 7px;
+    border: none;
+    box-sizing: border-box;
+    background-color: var(--bg-tertiary-color);
+}
+
+.header .right-half-container .navigation-container .search-container .search-input::placeholder {
+    color: var(--icon-color);
+}
+
+.header .right-half-container .navigation-container .search-container .search-input:focus {
+    outline: none;
+}
+
+.header .right-half-container .info-container {
+    font-size: 19px;
+    color: var(--icon-color);
+}

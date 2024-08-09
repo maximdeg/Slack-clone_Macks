@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+    --bg-primary-color: #1e2125;
+    --bg-secondary-color: #16191b;
+    --bg-tertiary-color: #5d5e60;
+    --bg-input-chat-color: #222529;
+    --icon-color: #f8f8f8;
+    --square-color: #b0b0b0;
+    --text-primary-color: #acacad;
+    --text-secondary-color: white;
+    --border-color: #6159599a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* background-color: var(--bg-primary-color); */
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-primary-color);
+}

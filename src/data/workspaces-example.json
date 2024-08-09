@@ -1,0 +1,141 @@
+{
+    "WORKSPACES": [
+        {
+            "id": "ws1",
+            "name": "Workspace A",
+            "channels": [
+                {
+                    "id": "ch1",
+                    "name": "General",
+                    "messages": [
+                        {
+                            "id": "m1",
+                            "time": "12:34",
+                            "date": "2024-07-31",
+                            "username": "user1",
+                            "image": "image1.jpg",
+                            "message": "Hello, world!"
+                        },
+                        {
+                            "id": "m2",
+                            "time": "13:00",
+                            "date": "2024-07-31",
+                            "username": "user2",
+                            "image": "image2.png",
+                            "message": "How are you?"
+                        }
+                    ]
+                },
+                {
+                    "id": "ch2",
+                    "name": "Random",
+                    "messages": [
+                        {
+                            "id": "m3",
+                            "time": "14:15",
+                            "date": "2024-07-31",
+                            "username": "user3",
+                            "image": "image3.gif",
+                            "message": "Random message"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ws2",
+            "name": "Workspace B",
+            "channels": [
+                {
+                    "id": "ch3",
+                    "name": "Channel 1",
+                    "messages": [
+                        {
+                            "id": "m4",
+                            "time": "15:30",
+                            "date": "2024-07-31",
+                            "username": "user4",
+                            "image": "image4.jpeg",
+                            "message": "Message 1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ws3",
+            "name": "Workspace C",
+            "channels": [
+                {
+                    "id": "ch4",
+                    "name": "Channel A",
+                    "messages": []
+                },
+                {
+                    "id": "ch5",
+                    "name": "Channel B",
+                    "messages": [
+                        {
+                            "id": "m5",
+                            "time": "16:45",
+                            "date": "2024-07-31",
+                            "username": "user5",
+                            "image": "image5.bmp",
+                            "message": "Another message"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ws4",
+            "name": "Workspace D",
+            "channels": [
+                {
+                    "id": "ch6",
+                    "name": "General",
+                    "messages": [
+                        {
+                            "id": "m6",
+                            "time": "17:00",
+                            "date": "2024-07-31",
+                            "username": "user6",
+                            "image": "image6.png",
+                            "message": "Test message"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ws5",
+            "name": "Workspace E",
+            "channels": [
+                {
+                    "id": "ch7",
+                    "name": "Main",
+                    "messages": [
+                        {
+                            "id": "m7",
+                            "time": "17:15",
+                            "date": "2024-07-31",
+                            "username": "user7",
+                            "image": "image7.jpg",
+                            "message": "This is a message"
+                        },
+                        {
+                            "id": "m8",
+                            "time": "17:30",
+                            "date": "2024-07-31",
+                            "username": "user8",
+                            "image": "image8.png",
+                            "message": "And another one"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+

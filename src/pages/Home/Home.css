@@ -1,0 +1,68 @@
+.home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.home-main .home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 92%;
+    height: 94%;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--bg-secondary-color);
+}
+
+.home-main .home-section .title-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-left: 30px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.home-main .home-section .title-container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: var(--text-primary-color);
+}
+
+.home-main .home-section .workspaces-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.home-main .home-section .workspaces-container .title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.home-main .home-section .workspaces-container .title h4 {
+    font-size: 20px;
+    color: var(--text-primary-color);
+}
+
+.home-main .home-section .create-workspace-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: 5px;
+    width: 100%;
+    height: 50px;
+}
+
+.home-main .home-section .create-workspace-container .btn-create-workspace {
+    width: 400px;
+    height: 50px;
+}
